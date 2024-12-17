@@ -1,0 +1,42 @@
+#Outside-container{
+    display: flex;
+    background-color: #242424;
+}
+#myFooter{
+    display: flex;
+    background-color: #242424;
+    padding: 2rem 4rem;
+}
+.text-class{
+    color: white;
+    font-family: 'Inter', serif;
+    word-wrap: break-word;
+    text-decoration: None;
+}
+#Logos{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#Company{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+#Support{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#Acknowledgement{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+ul {
+    text-decoration: None;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
+}

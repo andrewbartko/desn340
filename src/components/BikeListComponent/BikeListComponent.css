@@ -1,0 +1,8 @@
+.sort-buttons{
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+.sort-buttons button{
+    padding-left: .25rem;
+    padding-right: .25rem;
+}

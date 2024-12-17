@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f7fa;
+    padding: 2rem;
+    flex-wrap: wrap; /* Allow stacking */
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+}
+
+.hero-content h1 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    margin-bottom: 1rem;
+}
+
+.donate-button {
+    background-color: #acd0d6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Bikes Section */
+.bikes-section {
+    text-align: center;
+    background-color: #f5f7fa;
+    padding: 2rem 1rem;
+}
+
+.bikes-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Makes cards stack on small screens */
+}
+
+/* Location Section */
+.location-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f7fa;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.location-image,
+.location-info {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.location-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Funders Section */
+.funders-section {
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.funders-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.funders-container img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding: 0;
+    }
+
+    .location-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .funders-container {
+        justify-content: center;
+    }
+}

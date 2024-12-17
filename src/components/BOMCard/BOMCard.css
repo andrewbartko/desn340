@@ -1,0 +1,41 @@
+.bom-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bom-card__image-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bom-card__image {
+    width: 300px;
+    height: 250px;
+}
+
+.bom-card__content {
+    width: 100%;
+    text-align: center;
+}
+
+.bom-card__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #717171;
+    text-align: center;
+    align-items: center;
+}
+
+.bom-card__highlight {
+    color: #717171;
+    font-weight: 700;
+}
+
+.bom-card__underline {
+    color: #717171;
+    text-decoration: underline;
+}
